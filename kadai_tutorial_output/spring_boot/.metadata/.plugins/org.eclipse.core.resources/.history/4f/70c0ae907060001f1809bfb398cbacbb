@@ -1,0 +1,12 @@
+package com.example.samuraitravel.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class ReservationService {
+//	宿泊人数が定員以下かどうかチェックする
+	public boolean isWithinCapacity(Integer numberOfPeople, Integer capacity) {
+		return numberOfPeople <= capacity;
+	}
+
+}
