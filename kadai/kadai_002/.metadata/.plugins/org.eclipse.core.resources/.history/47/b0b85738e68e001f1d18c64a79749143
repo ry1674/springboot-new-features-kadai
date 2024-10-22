@@ -1,0 +1,18 @@
+spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/samuraitravel_db
+spring.datasource.username=root
+spring.datasource.password=yamauchiRIKU813+
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.sql.init.encoding=utf-8
+spring.sql.init.mode=always
+
+spring.servlet.multipart.max-file-size=5MB
+
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=riku.yamauchi0813@gmail.com
+spring.mail.password=pnnn rapm rejh yvuy
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+
+stripe.api-key=sk_test_51PrKvaJtCNxzDT8fwufOFGgL9Byzixt1jNGHt7UnxEdHrq8im6D4oEmHvOzIMj3pla2iIQfH9Oi7ZirTlf1GSKmu000JiEwI1b
+stripe.webhook-secret=whsec_2f9619474adfb403165fc7eaf1f3fbf350068602c656077943a6a3774d7dca08

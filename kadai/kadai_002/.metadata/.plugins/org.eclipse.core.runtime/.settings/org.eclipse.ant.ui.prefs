@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+eclipse.preferences.version=1
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
+=======
+useAnnotationsPrefPage=true
+eclipse.preferences.version=1
+#workspacejre=true
+useQuickDiffPrefPage=true
+>>>>>>> origin/main
