@@ -117,7 +117,9 @@ public class HouseController {
         
     	return "houses/show";
     }
-    
+
+//	お気に入り登録
+	
     @GetMapping("/{id}/create")
     public String create(@PathVariable(name = "id") Integer id, @AuthenticationPrincipal UserDetailsImpl userDetailsImpl, RedirectAttributes redirectAttributes) {
     	if(userDetailsImpl != null) {
